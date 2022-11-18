@@ -1,0 +1,170 @@
+/*https://pt.wix.com/website-template/view/html/2343?originUrl=https%3A%2F%2Fpt.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3Daqu%25C3%25A1rio&tpClick=view_button&esi=28b8259e-a503-4257-9fe9-dbb49e6e5ef0*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(0, 87, 168);
+    display: flex;
+    gap: 0px;
+
+}
+
+#menu ul li{
+    display: inline;
+    
+
+}
+
+#menu ul li a{
+    color: rgb(255, 255, 255);
+    padding:50px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .40s;
+
+}
+
+
+#menu ul li a:hover{
+    background-color: rgb(87, 162, 231);
+}
+
+#menu ul li:last-child a {
+    float:right;
+    background-color: #070048;
+
+}
+
+
+header{
+    height: calc(120vh - 150px);
+    background: no-repeat center/100% url('img/header1.jpg')  ;
+}
+
+.cont{
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+    
+
+}
+
+.cont h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    margin-bottom: 10px;
+    color: white;
+    float: center;
+}
+
+.cont p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 25px;
+    float: center;
+}
+
+
+/*----------------------------------------------*/
+
+
+.divisoria{
+    margin: 0;
+    margin-bottom: -8px;
+    display: flex;
+    border-top: none;
+    padding-top: 0;
+    background-color: rgb(150, 176, 207);
+}
+
+.divi{
+   flex: 1; /*distribui as 3 divs dentro do conteiner com larguras iguais*/
+   margin:0px; /*coloca uma margem entre elas*/
+   text-align: center;
+   background-color: rgb(150, 176, 207);
+}
+
+.divi img{
+   max-width: 100%;
+}
+
+
+.texto {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    text-align: center;
+    top: 100px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
+}
+
+
+#texto {
+    position: center;
+    margin-top: -650px;
+    }
+
+
+#texto h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+#texto h5{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+
+h2{
+    color: white;
+}
+/*-----------------------------------------------------*/
+
+#p1 {
+    background-color: rgb(150, 176, 207);
+    margin: 20px;
+    
+}
+
+
+#p1 h2{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(56, 94, 151);
+}
+
+#p1 p{
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    text-align: justify;
+    color: rgb(52, 52, 52);
+}
+
+#p2{
+    width: 100%;
+    padding: 50vh;
+    margin: 0px;
+    background-color: rgb(214, 214, 214);
+}
+
+#p2 h1{
+    font-size: 100px;
+    color:rgb(7, 0, 72);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

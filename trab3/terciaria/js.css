@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/*boão*/
+
+.calc{
+    background-color: white;
+}
+
+
+.btn{
+    font-family: arial;
+    font-size:14px;
+    font-weight:700;
+    text-transform: uppercase;
+    border:none;
+    padding:17px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+    margin-top:-32px ;
+    margin-bottom: -54px;
+
+}
+
+.btn-green{
+    background: #1909a3;
+    color:#fff;
+    box-shadow:0 5px 0 rgb(150,150,150);
+}
+
+
+.btn-green:hover{
+    background:#070048;
+    box-shadow:0 5px 0 rgb(93, 93, 93);
+  }
+
+
+.btn-green:active{
+position:relative;
+top:5px;
+box-shadow:none;
+}
+
+
+#botao{
+    width: 100%;
+    max-width: 190px;
+    padding: 2%;
+}
+
+
+
+
+
+/*label*/
+
+form{
+    width: 100%;
+    max-width: 350px;
+    padding: 2%;
+    margin-bottom: -15px;
+}
+
+.single-input{
+    position: relative;
+    margin: 30px 0;
+}
+.single-input label{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    color: rgb(150,150,150);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+.input{
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid rgb(200,200,200);
+    outline: 0;
+    font-size: 16px;
+    color: rgb(80,80,80);
+    transition: 0.5s ease-in-out;
+}
+
+.input:focus,
+.input:valid{
+    border-bottom: 2px solid cornflowerblue;
+}
+
+.input:focus ~ label,
+.input:valid ~ label{
+    transform: translateY(-30px);
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+p{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+#e{
+    color: cornflowerblue;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#volume{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#aquecedor{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#bomba{
+    font-family: 'Montserrat', sans-serif;
+}
